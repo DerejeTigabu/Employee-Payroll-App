@@ -14,6 +14,7 @@ const Card = (
         cardHeader = true,
         cardFooter = true,
         cardBody = true,
+        btnText
     }
 ) => {
   return (
@@ -32,7 +33,8 @@ const Card = (
      </div>
      </div>
      {cardFooter && (  <div className="card-footer">
-       <Button classes={"btn-secondary"} onClick={startEvent}/>
+       <Button classes={"btn-accept"} onClick={startEvent}
+       text={[btnText]}/>
      </div>
         )}
    

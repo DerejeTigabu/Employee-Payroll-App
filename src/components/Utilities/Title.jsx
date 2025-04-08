@@ -6,7 +6,7 @@ const Title = ({
 }) => {
   return (
     <div className={`title text-center ${classes}`}>
-      {text}
+      <h4>{text}</h4>
     </div>
   )
 }

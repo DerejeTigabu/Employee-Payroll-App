@@ -1,12 +1,14 @@
 import React from 'react'
 import Title from '../components/Utilities/Title'
+import { PageWrapper } from '../components/styles/PageWrapper'
 
 const Index = ({
 
 
 }) => {
   return (
-  <div className="container animate-left text-center"> 
+  //<div className="container animate-left text-center"> 
+    <PageWrapper className="animate-left">
     <Title text='Welcome to....'/>
      <h3 className="subtitle ">Employee-payroll</h3>
       <p>check our <br/>
@@ -21,7 +23,7 @@ const Index = ({
       Learn more about the app here.  
        
       </p>
-  </div>
+  </PageWrapper>
   )
 }
 

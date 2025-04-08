@@ -5,18 +5,26 @@ const Root = () => {
   <div className="App container mt-4 p-1 d-flex shadow">
     <nav className="navbar bg-accept text-light mb-3">
     <ul className="navbar-nav me-auto " >
-     <NavLink to={"/home"} className={({isActive})=>{
+     <NavLink to={`/home/`} className={({isActive})=>
         isActive? "nav-item active" : "nav-item"
-     }}>Home</NavLink>
-     <NavLink to={"/home"} className={({isActive})=>{
+     }>Home</NavLink>{" "}
+
+<NavLink to={`/about/`} className={({isActive})=>
         isActive? "nav-item active" : "nav-item"
-     }}>Home</NavLink>
-     <NavLink to={"/home"} className={({isActive})=>{
+     }>About</NavLink>{" "}
+
+<NavLink to={`/contact/`} className={({isActive})=>
         isActive? "nav-item active" : "nav-item"
-     }}>Home</NavLink>
-     <NavLink to={"/home"} className={({isActive})=>{
+     }>Contact</NavLink>{" "}
+
+<NavLink to={`/personal/`} className={({isActive})=>
         isActive? "nav-item active" : "nav-item"
-     }}>Home</NavLink>
+     }>Personal</NavLink>{" "}
+
+<NavLink to={`/logout`} className={({isActive})=>
+        isActive? "nav-item active" : "nav-item"
+     }>Logout</NavLink>
+    
 
      </ul>
 

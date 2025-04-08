@@ -15,7 +15,8 @@ const FormGroup = ({
   return (
     <div className="form-group">
       <label className="text-accept">{label}</label>
-      <input 
+      <input
+      style={{border: "1px solid gray"}}
         type={type}
         name={name}
         className='form-control'

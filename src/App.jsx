@@ -15,7 +15,7 @@ function App() {
   
     <Title/>
     <Button text={"Employee"} />
-    <Modal/>*
+    <Modal/>
     <Card/>
     <FormGroup label={"Full name"}/>
     
